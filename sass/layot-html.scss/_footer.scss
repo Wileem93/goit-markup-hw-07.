@@ -1,0 +1,77 @@
+.footer-titel {
+    font-family: 'Roboto',sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    }
+    .footer-soc-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: #ffffff;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover {
+            background-color: #2196F3 ;
+        }
+        &:hover .barbers-soc-icon{
+            fill: #FFFFFF;
+        }
+    }
+    
+    .footer-soc-icon {
+        fill: #ffffff;
+    }
+    
+    .footer-container-subscribe {
+        margin-left: auto;
+        display: inline-grid;
+        margin-left: 13px;
+    }
+    
+    .footer-subscribe-title {
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    
+    .email-form {
+        display: flex;
+    }
+    
+    .email-form-input {
+        margin-right: 12px;
+        padding: 15px 16px;
+        min-width: 358px;
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.9);
+        outline: transparent;
+    }
+    .email-form-btn {
+        display: flex;    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form-btn-icon {
+        fill: #ffffff;
+        margin-left: 10px;
+    }

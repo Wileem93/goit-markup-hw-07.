@@ -1,0 +1,37 @@
+.barbers-soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    &-link {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        &-icon {
+            fill: #AFB1B8;
+            transition-property: fill;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        &-link:hover {
+            background-color: #2196F3 ;
+            &:hover .barbers-soc-icon{
+                fill: #FFFFFF;
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+            }
+        }
+        &-item{
+            width: 170px;
+            height: 92px;
+        }
+        &-item {
+            width: 44px;
+            height: 44px;
+        }
+
+}
