@@ -8,66 +8,67 @@
     }
 }
 
-.navigation {
+.header-nav,
+.header-list {
     display: flex;
     align-items: center;
-    &__item:not(:last-child) {
-        margin-right: 50px;
-    }
-    
-    &__link {
-    display: block;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--first-titel-color);
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
-    color: var(--accent-color);
-    }
-    }
-    &__list {
-        display: flex;
-        align-items: center;
-    }
-    &__logo {
-        margin-right: 93px;
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-        margin-right: 50px;
-        color: #2196f3;
-    }
-    span {
-        color: #000000;
-    }
 }
-.connect {
+
+.header-logo {
+    margin-right: 93px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-right: 50px;
+    color: #2196f3;
+}
+.header-nav span {
+    color: #000000;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-link {
+display: block;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--first-titel-color);
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+&:hover,
+&:focus {
+color: var(--accent-color);
+}
+}
+
+
+
+.header-connect {
     margin-left: auto;
     display: flex;
     align-items: center;
     gap: 50px;
 }
-.connect__tel {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--second-titel-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
-    color: var(--accent-color);
-    }
-
+.header-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--second-titel-color);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+&:hover,
+&:focus {
+color: var(--accent-color);
 }
-.connect__mail {
+}
+.header-mail {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;

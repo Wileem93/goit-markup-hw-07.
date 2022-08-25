@@ -14,22 +14,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
     rel="stylesheet">
-    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="header"> 
         <div class="container header-container">
-            <nav class="navigation">
-                <a class="logo navigation__logo animate__animated animate__bounce link" href="./index.html" >Web<span>Studio</span></a>
-                <ul class="navigation__list list">
-                    <li class="navigation__item"><a href="" class="navigation__link link current">Студия</a></li>
-                    <li class="navigation__item"><a href="./portfolio.html" class="navigation__link link">Портфолио</a></li>
-                    <li class="navigation__item"><a href="" class="navigation__link link">Контакты</a></li>
+            <nav class="header-nav">
+                <a class="header-logo animate__animated animate__bounce link" href="./index.html" >Web<span>Studio</span></a>
+                <ul class="header-list list">
+                    <li class="header-item"><a href="" class="header-link link current">Студия</a></li>
+                    <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
+                    <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
                 </ul>
             </nav>          
-                <ul class="connect header__connect list">
-                    <li class="connect__mail "><a href="mailto:info@devstudio.com" class="contacts-link link"><svg class="contact-icon" width="16" height="12"><use href="./img/comp.svg#icon-email"></use></svg> info@devstudio.com</a></li>
-                    <li class="connect__tel "><a href="tel:+380961111111" class="contacts-link link"><svg class="contact-icon" width="10" height="16"><use href="./img/comp.svg#icon-smart"></use></svg> +38 096 111 11 11</a></li>
+                <ul class="header-connect list">
+                    <li class="header-mail "><a href="mailto:info@devstudio.com" class="contacts-link link"><svg class="contact-icon" width="16" height="12"><use href="./img/comp.svg#icon-email"></use></svg> info@devstudio.com</a></li>
+                    <li class="header-tel "><a href="tel:+380961111111" class="contacts-link link"><svg class="contact-icon" width="10" height="16"><use href="./img/comp.svg#icon-smart"></use></svg> +38 096 111 11 11</a></li>
                 </ul>         
         </div>
     </header>
@@ -43,41 +43,41 @@
         <section class="mix">
             <div class="container">
                 <ul class="mix-list">
-                    <li class="mix-list__item list">
-                        <div class="mix-list__icon-container">
-                            <svg class="mix-list__icon" width="70" height="70" >
+                    <li class="mix-item list">
+                        <div class="pictures-icon-container">
+                            <svg class="pictures-icon" width="70" height="70" >
                                 <use href="./img/comp.svg#icon-antenna-1"></use>
                             </svg>
                         </div>
-                        <h3 class="mix-list__titel">Внимание к деталям</h3>
-                        <p class="mix-list__text"  >Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="mix-titel">Внимание к деталям</h3>
+                        <p class="mix-text"  >Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="mix-list__item list">
-                        <div class="mix-list__icon-container">
-                            <svg class="mix-list__icon" width="70" height="70" >
+                    <li class="mix-item list">
+                        <div class="pictures-icon-container">
+                            <svg class="pictures-icon" width="70" height="70" >
                                 <use href="./img/comp.svg#icon-clock"></use>
                             </svg>
                         </div>
-                    <h2 class="mix-list__titel">Пунктуальность</h2>
-                        <p class="mix-list__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h2 class="mix-titel">Пунктуальность</h2>
+                        <p class="mix-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="mix-list__item list">
-                        <div class="mix-list__icon-container">
-                            <svg class="mix-list__icon" width="70" height="70" >
+                    <li class="mix-item list">
+                        <div class="pictures-icon-container">
+                            <svg class="pictures-icon" width="70" height="70" >
                                 <use href="./img/comp.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                    <h2 class="mix-list__titel">Планирование</h2>
-                        <p class="mix-list__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h2 class="mix-titel">Планирование</h2>
+                        <p class="mix-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="mix-list__item list">
+                    <li class="mix-item list">
                         <div class="pictures-icon-container">
                             <svg class="pictures-icon" width="70" height="70" >
                                 <use href="./img/comp.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                    <h2 class="mix-list__titel">Современные технологии</h2>
-                        <p class="mix-list__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h2 class="mix-titel">Современные технологии</h2>
+                        <p class="mix-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
@@ -372,7 +372,7 @@
                     <svg class="modal-button-icon" width="11"  height="11">
                         <use href="./img/comp.svg#icon-vector"></use>
                     </svg>
-                </a>
+                </a>   
             </button>
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form class="modal-form">
